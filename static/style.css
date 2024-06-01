@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bd{
+    background-image: url(/static//img/screen1/image\ 19.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1024px;
+    background-attachment: fixed;
+}
+p{
+    font-family: "FONTSPRING DEMO";
+    font-size: 20px;
+    font-weight: lighter;
+    color: #313131;
+}
+@font-face {
+    font-family: "NewYork";
+    src: url("/fonts/NewYork\ PERSONAL\ USE.otf");
+    font-family: "FONTSPRING DEMO";
+    src: url(/fonts/Fontspring-DEMO-pontiac_light.otf);
+    }
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+header img{
+    padding: 70px;
+}
+.text2 p{
+    font-family: 'FONTSPRING DEMO - Pontiac Light';
+}
+.socialmedia{
+    animation: move 1.5s 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+}
+.icons{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+.line{
+    height: 472px;
+    width: 1px;
+}
+.maintext{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    color: white;
+}
+.main{
+    display: flex;
+}
+h1{
+    font-family: "NewYork";
+    font-size: 128px;
+    font-weight: lighter;
+    margin: 0;
+}
+.maintext p{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'FONTSPRING DEMO - Pontiac Light';
+    font-size: 24px;
+    color: white;
+}
+h2{
+    font-family: 'FONTSPRING DEMO - Pontiac Light';
+    font-size: 40px;
+    font-weight: lighter;
+}
+.aboutus{
+    margin-top: 100px;
+    padding-left: 50px;
+    display: flex;
+    width: 1678px;
+    font-family: 'FONTSPRING DEMO - Pontiac Light';
+}
+.aboutus h1{
+    color: #313131;
+}
+.p2{
+    position: absolute;
+    width: 830px;
+    height: 130px;
+    left: 980px;
+    top: 1446px;
+    font-family: 'FONTSPRING DEMO - Pontiac Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: right;
+}
+.img{
+    position: absolute;
+    width: 1750px;
+    height: 742px;
+    left: 64px;
+    top: 1683px;
+}
+.urcourses{
+    background-image: url(/static//img/screen1/image\ 29\ \(1\).png);
+    background-size: cover;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    left: 0px;
+    top: 2645px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.urcourses p{
+    width: 852px;
+    color: white;
+    font-family: 'FONTSPRING DEMO - Pontiac Light';
+}
+.Vector1{
+    margin-left: 473.54px;
+    margin-top: 2100px;
+}
+.course h2{
+    font-family: "NewYork";
+    font-size: 96px;
+    font-weight: lighter;
+}
+.course{
+    padding-left: 70px;
+}
+.card{
+    display: flex;
+}
+.innercard{
+    padding-left: 80px;
+}
+.innercard p{
+    width: 881px;
+    margin-bottom: 100px;
+    font-family: 'FONTSPRING DEMO - Pontiac Light';
+}
+.innercard a{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #000000;
+    font-family: 'FONTSPRING DEMO - Pontiac Light';
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.vector2{
+    margin-top: 17px;
+    margin-left: 28%;
+}
+
+.course2{
+    padding-right: 70px;
+    text-align: end;
+}
+.card2{
+    display: flex;
+    justify-content: end;
+}
+.innercard2{
+    padding-right: 80px;
+    font-family: 'FONTSPRING DEMO - Pontiac Light';
+}
+.innercard2 p{
+    width: 881px;
+    margin-bottom: 100px;
+    font-family: 'FONTSPRING DEMO - Pontiac Light';
+}
+.innercard2 a{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #000000;
+    font-family: 'FONTSPRING DEMO - Pontiac Light';
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.course2 h2{
+    font-family: "NewYork";
+    font-size: 96px;
+    font-weight: lighter;
+}
+.vector3{
+    margin-top: 17px;
+    margin-left: 49%;
+}
+.whytochooseus{
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url(/static//img/screen1/image\ 42.png);
+    width: 100%;
+    height: 878px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cards{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+.cards img{
+    margin: 40px;
+}
+.cards2{
+    height: 683px;
+}
+.insights{
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url(/static//img/screen1/image\ 43.png);
+    width: 100%;
+    height: 878px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ins-text{
+    margin-top: 100px;
+    height: 540px;
+    padding-bottom: 100px;
+}
+.ins-text p{
+    font-family: 'FONTSPRING DEMO - Pontiac Light';
+}
+.p1{
+    width: 765px;
+    margin-left: 50px;
+}
+.im2{
+    margin-left: 20%;
+}
+.p3{
+    width: 765px;
+    margin-left: 30%;
+}
+.im3{
+    margin-left: 40%;
+}
+.par{
+    margin-left: 50%;
+    width: 780px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+}
+.line2{
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
