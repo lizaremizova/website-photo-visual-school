@@ -30,11 +30,11 @@ def login():
     password = 'admin'
     if request.method == 'POST':
         if request.form['login'] == login and request.form['password'] == password:
-            user = User(login) # Создаем пользователя
-            login_user(user) # Логинем пользователя
+            user = User(login) # creating user
+            login_user(user) # logging user in
             return redirect(url_for('index'))
         else:
-            return render_template('login.html', error='Неправильный логин или пароль')
+            return render_template('login.html', error='Incorrect username or password')
     return render_template('login.html')
 
 app.run(debug=True)
